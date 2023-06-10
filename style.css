@@ -65,3 +65,12 @@ section > a {
     font-size: 1em;
     padding: 1em;
 }
+.nome{
+    color: blueviolet;
+    cursor: pointer;
+}
+@media(max-width:300px){
+    .list-link-2 > li{
+        display: inline;
+    }
+}

@@ -63,4 +63,5 @@ section > a {
 .footer > p> a{
     color: var(--purple);
     font-size: 1em;
+    padding: 1em;
 }

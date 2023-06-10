@@ -1,76 +1,66 @@
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: var(--body-bg-color);
-}
-:root {
+:root{
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
-  }
-
-.bio{
+}
+main{
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+     
+}
+ul>li{
+    list-style: none;
+    cursor:pointer;
+}
+section{
     display: flex;
     flex-direction: column;
-    text-align: center;
+}
+section > a {
+    color: var(--purple);
+    font-size: 1.2em;
+    list-style: none;
+}
+.bio{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    padding: 1em;
+}
+.link-instagram{
+    margin-top: 1em;
+}
+.list-link > li{
+    border: 2px solid var(--purple);
+    width: 50%;
+    padding: 1em;
+    margin: 1em auto;
+    color: var(--purple);
+    font-size: 1em;
 }
 .imagem{
-    margin-top: 10px;
-}
-.bio > a{
-    font-size: 17px;
-    padding: 10px;
-    margin: auto;
-   
-}
-.box{
-    text-align: center;
-    display: block;
-    background-color: var(--body-bg-color);
-    width:600px;
-    height:600px;
-    margin:auto;
-    padding: 20px;
-}
-.imagem{
-    width: 100px;
-    height: 100px;
+    width: 7em;
+    height: 7em;
     border-radius: 50%;
-    border: 4px solid var(--purple);
+    border: 0.3em solid var(--purple);
 }
-.list-social > li{
-    border: 2px solid;
-    padding: 15px;
-    width: 300px;
-    margin: 20px auto ;
-    list-style: none;
-    text-align: center;
-    cursor: pointer;
+.list-link-2{
+    width: 50%;
+    padding: 1em;
+    margin: 1em auto;
     color: var(--purple);
 }
-.social-tree{
-    text-align: center;
-    width: 300px;
-    margin: 20px auto;
-}
-.social-tree > ul {
-    padding: 10px;
-}
-.social-tree > ul > li {
+.list-link-2 > li{
     display: inline;
-    list-style: none;
-    padding: 10px;
-    cursor: pointer;
+    padding: 1.5em;
 }
-p{
-    margin: 0;
-    font-size: 18px;
-    text-align: center;
-}
-p > a{
-    cursor: pointer;
+.footer > p> a{
     color: var(--purple);
+    font-size: 1em;
 }

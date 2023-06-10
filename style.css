@@ -60,7 +60,7 @@ section > a {
     display: inline;
     padding: 1.5em;
 }
-.footer > p> a{
+.footer > p{
     color: var(--purple);
     font-size: 1em;
     padding: 1em;

@@ -51,6 +51,7 @@ section > a {
     border: 0.3em solid var(--purple);
 }
 .list-link-2{
+    display: inline;
     width: 50%;
     padding: 1em;
     margin: 1em auto;
@@ -60,7 +61,10 @@ section > a {
     display: inline;
     padding: 1.5em;
 }
-.footer > p{
+.contato{
+    align-items: center;
+}
+.footer>p{
     color: var(--purple);
     font-size: 1em;
     padding: 1em;
